@@ -195,7 +195,7 @@ KC_VERSION=master kcctl deploy
 ```bash
 # 如果您运行 kc-server 的节点 ip 是 192.168.234.3
 # 在实际执行时你应该替换成您自己的 kc-server 节点 ip
-kcctl login -H http://192.168.234.3:8080 -u admin -p Thinkbig1
+kcctl login -H https://192.168.234.3:8080 -u admin -p Thinkbig1
 ```
 
 然后使用以下命令创建 k8s 集群:
